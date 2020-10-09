@@ -20,12 +20,12 @@ hr {
 .title {
   text-align: center;
   margin-bottom: 4rem;
-  border-bottom: 4px solid olivedrab;
-  border-left: 2px solid olivedrab;
-  border-right: 2px solid olivedrab;
+  border-bottom: 5px solid lightcoral;
+  border-left: 3px solid lightblue;
+  border-right: 3px solid lightblue;
   border-radius: 20px;
   align-self: center;
-  color: black;
+  color: lightcoral;
 }
 .task4 {
   text-align: center;
@@ -43,18 +43,21 @@ h2,
 h3,
 h4 {
   color: #19d3da;
-  font-family: Montserrat;
+  font-family: ubuntu;
   text-align: left;
 }
 
-.task6 table, th, td {
+.task6 table,
+th,
+td {
   border: 1px solid gray;
   border-collapse: collapse;
   align-items: center;
 }
-.task6 th,td {
-  padding: 1.3rem;
-  text-align: center;    
+.task6 th,
+td {
+  padding: 0.7rem;
+  text-align: center;
 }
 
 .task7 img {
@@ -69,8 +72,30 @@ h4 {
   text-align: left;
 }
 .task7 table {
-  border-spacing: 15px;
+  border-spacing: 10px;
 }
 .task7 li {
   font-size: 14px;
 }
+.task1 p {
+  font-size: 13px;
+  text-align: right;
+  margin: 2%;
+  font-weight: normal;
+}
+
+/* Left page */
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: lightblue;
+  padding: 4px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Right page */
+
