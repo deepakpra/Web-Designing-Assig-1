@@ -88,6 +88,7 @@ td {
 
 a {
   text-decoration: none;
+  color: #222222;
 }
 a:hover {
   color: white;
