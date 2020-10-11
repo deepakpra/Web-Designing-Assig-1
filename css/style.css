@@ -7,6 +7,14 @@ body {
   padding-left: 5%;
   padding-right: 5%;
 }
+h1,
+h2,
+h3,
+h4 {
+  color: #19d3da;
+  font-family: ubuntu;
+  text-align: left;
+}
 hr {
   border-style: dotted;
   color: #19d3da;
@@ -20,12 +28,14 @@ hr {
 .title {
   text-align: center;
   margin-bottom: 4rem;
-  border-bottom: 5px solid lightcoral;
-  border-left: 3px solid lightblue;
-  border-right: 3px solid lightblue;
-  border-radius: 20px;
+  border-bottom: 7px solid lightcoral;
+  border-left: 4px solid lightblue;
+  border-right: 4px solid lightblue;
+  border-radius: 30px;
   align-self: center;
+  font-size: 2.2rem;
   color: lightcoral;
+  text-transform: uppercase;
 }
 .task4 {
   text-align: center;
@@ -38,14 +48,7 @@ p {
   justify-content: center;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  color: #19d3da;
-  font-family: ubuntu;
-  text-align: left;
-}
+
 
 .task6 table,
 th,
